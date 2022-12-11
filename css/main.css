@@ -38,6 +38,7 @@ body {
 
 h1 {
   font: 3rem "Oldenburg", cursive;
+  color: whitesmoke;
   text-align: center;
   padding: 2rem;
 }
@@ -45,6 +46,10 @@ h1 {
 h2 {
   font-size: 2rem;
   margin: 1rem;
+}
+
+h3 {
+  font-size: 1.4;
 }
 
 p {
@@ -70,6 +75,9 @@ button {
   h2 {
     font-size: 3rem;
   }
+  h3 {
+    font-size: 2rem;
+  }
   p {
     font-size: 1.6rem;
   }
@@ -87,6 +95,9 @@ button {
   h2 {
     font-size: 3.5rem;
   }
+  h3 {
+    font-size: 2.4rem;
+  }
   p {
     font-size: 2rem;
   }
@@ -103,6 +114,9 @@ button {
   }
   h2 {
     font-size: 4rem;
+  }
+  h3 {
+    font-size: 3rem;
   }
   p {
     font-size: 2.4rem;
@@ -123,6 +137,7 @@ button {
   padding: 1rem;
   cursor: pointer;
   box-shadow: 10px 5px 5px black;
+  border-radius: 4px;
 }
 button:hover {
   background-color: wheat;
@@ -167,8 +182,8 @@ a:hover {
   background-color: whitesmoke;
   padding: 1rem;
 }
-.container h2 {
-  text-decoration: underline;
+.container .h2 {
+  color: whitesmoke;
 }
 
 article {
@@ -188,6 +203,33 @@ article .screenshot {
 article .hrefs {
   display: flex;
   flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.headshot {
+  width: 20%;
+  box-shadow: 10px 5px 5px black;
+}
+
+.logo {
+  width: 30%;
 }
 
 @media (min-width: 700px) {
