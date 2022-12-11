@@ -2,6 +2,48 @@ main {
     background-color: #6D213C;
 }
 
+button {
+    margin: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px black;
+       
+    &:hover {
+        background-color: wheat;
+    }
+}
+
+
+a{
+    margin: 2rem;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: blue;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5rem 2rem 5rem;
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px black;
+
+    .messageElement {
+        padding: 0;
+        margin: 1rem;
+    }
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 5rem;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -24,6 +66,7 @@ article {
     flex-direction: column;
     background-color: whitesmoke;
     margin-bottom: 2rem;
+    box-shadow: 10px 5px 5px black;
 
     .side{
         padding: 0 2rem 2rem;
@@ -33,13 +76,9 @@ article {
         width: 100%
     }
 
-    a{
-        margin: 2rem;
-        text-decoration: underline;
-    }
-
-    a:hover {
-        color: blue;
+    .hrefs {
+        display: flex;
+        flex-direction: column;
     }
     
 }

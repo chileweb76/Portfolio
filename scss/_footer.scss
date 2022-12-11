@@ -2,11 +2,6 @@ footer {
     background-color: #3C5233;
     padding: 2rem;
 
-    .fa-brands {
-        margin-top: 1rem;
-        padding: 2rem;
-    }
-
     p {
         margin-top: 2rem;
     }
@@ -17,13 +12,6 @@ footer {
         justify-content: space-around;
     }
 
-    .links {
-        display: flex;
-    }
-
-    .footera {
-        margin-top: 2.3rem;
-    }
 }
 
 @include breakpoint($small){
