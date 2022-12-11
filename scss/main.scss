@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Oldenburg&display=swap');
+
+//variables
+//variables
+$small: 700px;
+$mid: 800px;
+$medium: 900px;
+$large: 1200px;
+$xlarge: 1800px;
+
+$font-header: 'Oldenburg', cursive;
+$font-stack: 'Actor', sans-serif;
+
+$fa-font-path: "/webfonts";
+
+//mixins & placeholders
+@mixin breakpoint($size) {
+    @media (min-width: $size) {
+      @content;
+    }
+  }
+
+//Includes
+@import "header.scss";
+@import "reset.scss";
+@import "typography.scss";
+@import "body.scss";
+@import "footer.scss";
+@import "./fontawesome/scss/fontawesome.scss";
+@import "./fontawesome/scss/solid.scss";
+@import "./fontawesome/scss/brands.scss";

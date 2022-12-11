@@ -1,0 +1,31 @@
+{
+    "posts":[
+    {
+        "link": "happycamper.html",
+        "title": "My journaling practice & Happy Camper PRINTABLES!",
+        "by": "Chere Hile",
+        "date": "February 18,2022",
+        "image": "img/CKH_HappyCamper_PS_1000.jpg",
+        "post": "post/happy_camper.txt",
+        "category":"New Releases"
+    },
+    {
+        "link": "sweetvalentine.html",
+        "title": "Sweet Valentine & a NL Hop",
+        "by": "Chere Hile",
+        "date": "February 10,2022",
+        "image": "img/CKH_BHS_SweetValentine_PK_1000.jpg",
+        "post": "post/sweet_valentine.txt",
+        "category":"Freebies"
+    },
+    {
+        "link": "smitten.html",
+        "title": "Smitten",
+        "by": "Chere Hile",
+        "date": "February 5,2022",
+        "image": "img/CKH_Smitten_PK_1000.jpg",
+        "post": "post/smitten.txt",
+        "category":"New Releases"
+    }
+    ]
+}

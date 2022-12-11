@@ -1,0 +1,58 @@
+main {
+    background-color: #6D213C;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5rem;
+
+    p {
+        background-color: whitesmoke;
+        padding: 1rem;
+    }
+    
+    h2 {
+        text-decoration: underline;
+    }
+}
+
+article {
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+
+    .side{
+        padding: 0 2rem 2rem;
+    }
+
+    .screenshot {
+        width: 100%
+    }
+
+    a{
+        margin: 2rem;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: blue;
+    }
+    
+}
+
+@include breakpoint($small) {
+    article {
+        flex-direction: row;
+    }
+}
+
+#pagebreak {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
